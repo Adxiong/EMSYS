@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class DBManager {
     private static final String DRIVER="com.mysql.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://alongz.cn/ms?useUnicode=true&characterEncoding=utf-8";
+    private static final String URL = "jdbc:mysql://localhost:3306/ms?useUnicode=true&characterEncoding=utf-8";
     private static final String USERNAME = "ms";
     private static final String PASSWORD = "ms";
     static {
